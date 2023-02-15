@@ -1,0 +1,13 @@
+.slide-item {
+	.item {
+		img {
+			width: 60px;
+			height: 60px;
+			object-fit: cover;
+			border-radius: 50px; /*1*/
+			border: 2px solid transparent; /*2*/
+			background: linear-gradient(to right, #ffbf00, #fa0175, #d300c5) border-box; 
+		}
+		display: inline-block;
+	}
+}

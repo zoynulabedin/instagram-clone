@@ -1,0 +1,60 @@
+.card {
+	.card-header {
+		background-color: #fff;
+		.profile-img {
+			img {
+				width: 50px;
+				height: 50px;
+				object-fit: cover;
+				border-radius: 50px; /*1*/
+				border: 2px solid transparent; /*2*/
+				background: linear-gradient(to right, #ffbf00, #fa0175, #d300c5)
+					border-box;
+			}
+		}
+		border: none;
+	}
+	.card-body {
+		img {
+			max-width: 100%;
+		}
+		border-bottom: none;
+	}
+	.card-footer {
+		background-color: #fff;
+		border: none;
+		.footer-top {
+			.left-icons {
+				button {
+					svg {
+						fill: #000;
+						color: #000;
+						transition: 0.3s;
+						&:hover {
+							color: #8e8e8e;
+							fill: #8e8e8e;
+						}
+					}
+				}
+			}
+			.right-icons {
+				button {
+					svg {
+						fill: #000;
+						color: #000;
+						transition: 0.3s;
+						&:hover {
+							color: #8e8e8e;
+							fill: #8e8e8e;
+						}
+					}
+				}
+			}
+		}
+		.footer-bottom {
+			.react-emoji {
+				z-index: 1 !important;
+			}
+		}
+	}
+}
